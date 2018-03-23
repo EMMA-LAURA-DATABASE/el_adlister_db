@@ -16,3 +16,4 @@ VALUES
   ('Help WANTED: Handyman', 'Need someone who can fix my door, its off the hinges', 80.00, 8),
   ('Math Tutor Avail', 'High school math tutor, specialize in  advance algebra, hourly rates', 25.00, 11),
   ('Need a Dentist', 'new to the area and dont know where to get my teeth cleaned', 0.00, 10);
+
