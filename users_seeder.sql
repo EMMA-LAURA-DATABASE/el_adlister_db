@@ -13,3 +13,4 @@ INSERT INTO users (first_name, last_name, email, password)
       ('Holly', 'Connor', 'beerBabe@ipa.com', 'password9'),
       ('Louis', 'Calvo', 'danceDaddy@funtimes.com', 'password10'),
       ('Nick', 'Orello', 'techMan@computers.com', 'password11');
+
