@@ -38,3 +38,19 @@ CREATE TABLE IF NOT EXISTS ad_category (
   FOREIGN KEY (ads_id) REFERENCES ads(id),
   FOREIGN KEY (category_id) REFERENCES categories(cat_id)
 );
+
+CREATE TABLE IF NOT EXISTS ad_questions (
+  id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  question VARCHAR(500),
+  ads_id INT UNSIGNED NOT NULL,
+  PRIMARY KEY (id),
+  FOREIGN KEY (ads_id) REFERENCES ads(id)
+);
+
+CREATE TABLE IF NOT EXISTS ad_answers (
+  id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  answer VARCHAR(500),
+  questions_id INT UNSIGNED NOT NULL,
+  PRIMARY KEY (id),
+  FOREIGN KEY (questions_id) REFERENCES ad_questions(id)
+);
