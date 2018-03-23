@@ -4,6 +4,8 @@ SELECT * FROM ads;
 SELECT * FROM categories;
 SELECT * FROM users;
 SELECT * FROM ad_category;
+SELECT * FROM ad_questions;
+SELECT * FROM ad_answers;
 
 -- For a given ad, what is the email address of the user that created it?
 SELECT CONCAT(u.first_name, ' ', u.last_name) AS user_full_name, u.email, a.title
