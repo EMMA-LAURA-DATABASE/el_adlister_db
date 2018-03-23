@@ -38,4 +38,3 @@ CREATE TABLE IF NOT EXISTS ad_category (
   FOREIGN KEY (ads_id) REFERENCES ads(id),
   FOREIGN KEY (category_id) REFERENCES categories(cat_id)
 );
-
